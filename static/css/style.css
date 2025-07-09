@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+    padding: 1rem 1.25rem;
+}
+
+.table th {
+    background-color: #f1f5f9;
+    font-weight: 600;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.action-buttons .btn {
+    margin-right: 0.25rem;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+}
+
+/* Form styling */
+.form-control, .form-select {
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.75rem;
+}
+
+/* Alert animation */
+.alert {
+    transition: all 0.3s ease;
+}
