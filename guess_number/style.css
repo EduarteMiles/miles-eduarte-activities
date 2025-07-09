@@ -1,0 +1,97 @@
+body {
+    font-family: Georgia, serif;
+    background: linear-gradient(135deg, #ff80ab, #f50057);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+.game-container {
+    text-align: center;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255,0.3);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ac053c; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.2em;
+    color: #fffbfc; 
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    padding: 12px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 2px solid #f50057; 
+    border-radius: 10px;
+    background-color: #fce4ec; 
+    font-size: 1em;
+    color: #333;
+    transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    background-color: #ffebee;
+    border-color: #ff4081;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #ff4081;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #f50057; 
+    transform: scale(1.05);
+}
+
+button:active{
+    background-color: #d81b60;; 
+    transform: scale(0.98);
+}
+
+#message {
+    margin-top: 15px;
+    font-size: 1.3px;
+    font-weight: bold;
+    color: #ff80ab; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#message.success {
+    color: #43a047;
+}
+
+#message.error {
+    color: #d32f2f;
+}
+
+#tries {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f50057; 
+    margin-top: 20px;
+}
